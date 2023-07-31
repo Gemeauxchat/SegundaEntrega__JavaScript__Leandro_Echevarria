@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/bank-building-icon.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            PartyFund
+        </a>
+      
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Consultas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Join the party</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <main>
+        <div class="party__background">
+
+        <h1 class="text-center">Welcome to the party</h1>        
+        </div>
+        <section>
+          <div>
+<button onclick="invitar()">Invitar</button>
+<button onclick="displayInvitados()">Ver invitados</button>
+<button onclick="borrar()">Borrar último invitado y acompañantes</button>
+<button onclick="maxCap()">Verificar capacidad máxima</button>
+<button onclick="consulta()">Consulta</button>
+</div>     
+        </section>
+    </main>
+    <aside>
+<p>Este es un simulador que permite invitar personas a la fiesta verificando que el número de invitados no exceda la capacidad máxima del salón. </p>
+<p>El botón de invitar perite agregar invitados.</p>
+<p>El botón ver invitados muestra la lista de invitados.</p>
+<p>Es posible borrar invitados de la lista de abajo hacia arriba.</p>
+<p>Al verificar la capacidad máxima debemos ingresar los datos de capacidad del salón.</p>
+<p>El botón de consulta permite buscar invitados dentro de la lista por nombre.</p>
+    </aside>
+    <footer>
+    </footer>
+</body>
+</html>

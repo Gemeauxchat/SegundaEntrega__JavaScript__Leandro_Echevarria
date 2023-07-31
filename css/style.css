@@ -1,0 +1,24 @@
+.party__background{
+    background-color: yellow;
+    height: 300px;
+}
+
+.party__background h1{
+    padding:100px;
+}
+h5{
+    padding: 20px;
+}
+form{
+    padding-left:20px;
+}
+section{
+    display:flex;
+}
+section div{
+    justify-content: space-between ;
+    padding:20px;
+}
+button{
+    margin: 10px;
+}
